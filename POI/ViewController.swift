@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         let passedPhrase = "We made it to the other side!"
         newVC.receivedPhrase = passedPhrase
         
+       // let careGiverImage = UIImageView
+       // careGiverImage.image = #imageLiteral(resourceName: "fatman.png")
+        
+        
     }
 
 }
