@@ -74,15 +74,25 @@
                                     <segue destination="uyH-7T-DNj" kind="push" id="QIo-07-Lz6"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEX-tm-QXC">
+                                <rect key="frame" x="20" y="137" width="599" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DVg-AS-87A"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tny-rE-HDC"/>
+                    <connections>
+                        <outlet property="myLabel1" destination="iEX-tm-QXC" id="8mX-Ty-qtQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7sI-qY-VoU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1740" y="678"/>
+            <point key="canvasLocation" x="1739.6484375" y="677.34375"/>
         </scene>
         <!--No Match View Controller-->
         <scene sceneID="HxW-QM-MCY">

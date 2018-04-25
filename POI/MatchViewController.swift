@@ -10,10 +10,15 @@ import UIKit
 
 class MatchViewController: UIViewController {
 
+    @IBOutlet weak var myLabel1: UILabel!
+    var receivedPhrase = String()
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        myLabel1.text = receivedPhrase
     }
 
     override func didReceiveMemoryWarning() {
