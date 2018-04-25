@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="1075.78125" y="122.65625"/>
         </scene>
-        <!--View Controller-->
+        <!--Match View Controller-->
         <scene sceneID="K9q-v2-j8e">
             <objects>
-                <viewController id="bWp-qH-acE" sceneMemberID="viewController">
+                <viewController id="bWp-qH-acE" customClass="MatchViewController" customModule="POI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DFB-EN-Caz">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="1740" y="678"/>
         </scene>
-        <!--View Controller-->
+        <!--No Match View Controller-->
         <scene sceneID="HxW-QM-MCY">
             <objects>
-                <viewController id="uyH-7T-DNj" sceneMemberID="viewController">
+                <viewController id="uyH-7T-DNj" customClass="NoMatchViewController" customModule="POI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kSa-Vf-JBN">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,7 +137,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MBt-ls-uGz"/>
-        <segue reference="fjv-7c-h9g"/>
+        <segue reference="QIo-07-Lz6"/>
+        <segue reference="qE2-0s-DXT"/>
     </inferredMetricsTieBreakers>
 </document>
