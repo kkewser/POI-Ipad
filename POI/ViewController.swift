@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let newVC: MatchViewController = segue.destination as! MatchViewController
+        let passedPhrase = "We made it to the other side!"
+        newVC.receivedPhrase = passedPhrase
+        
+       // let careGiverImage = UIImageView
+       // careGiverImage.image = #imageLiteral(resourceName: "fatman.png")
+        
+        
+    }
 
 }
 
