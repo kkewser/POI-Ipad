@@ -46,10 +46,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="16b-NV-dLi"/>
+                    <connections>
+                        <segue destination="bWp-qH-acE" kind="show" identifier="NewdataFetched" id="4kM-z3-Lql"/>
+                        <segue destination="uyH-7T-DNj" kind="show" identifier="NotMatch" id="YjO-hc-prz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1075.78125" y="122.65625"/>
+            <point key="canvasLocation" x="878" y="123"/>
         </scene>
         <!--Match View Controller-->
         <scene sceneID="K9q-v2-j8e">
@@ -120,6 +124,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Tny-rE-HDC"/>
                     <connections>
+                        <outlet property="FirstnameCaregiver" destination="HbQ-5b-fft" id="fNk-se-T9J"/>
+                        <outlet property="ImageOfCaregiver" destination="6SB-HV-IZm" id="EJh-oa-Jyz"/>
+                        <outlet property="LastNameCaregiver" destination="pf9-qh-mum" id="TgW-N2-xFt"/>
                         <outlet property="myLabel1" destination="iEX-tm-QXC" id="8mX-Ty-qtQ"/>
                     </connections>
                 </viewController>
@@ -199,7 +206,7 @@
         <image name="fatman.png" width="441" height="547"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QIo-07-Lz6"/>
-        <segue reference="qE2-0s-DXT"/>
+        <segue reference="YjO-hc-prz"/>
+        <segue reference="fjv-7c-h9g"/>
     </inferredMetricsTieBreakers>
 </document>
