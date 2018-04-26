@@ -19,24 +19,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPt-MX-vaD">
-                                <rect key="frame" x="134" y="259" width="43" height="30"/>
+                                <rect key="frame" x="563" y="534" width="43" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Match"/>
+                                <state key="normal" title="Match">
+                                    <color key="titleColor" red="0.0" green="0.44861254204000239" blue="0.45717157658629437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="bWp-qH-acE" kind="push" id="fjv-7c-h9g"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQg-5c-iUk">
-                                <rect key="frame" x="99" y="163" width="177" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bigicon2.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Qt-JM-uL4">
+                                <rect key="frame" x="63" y="137" width="427" height="495"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This program will tell you who is at your door." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQg-5c-iUk">
+                                <rect key="frame" x="448" y="127" width="441" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Just wait a little..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOG-lM-f66">
+                                <rect key="frame" x="512" y="383" width="312.5" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYH-i6-XRL">
-                                <rect key="frame" x="254" y="212" width="67" height="125"/>
+                                <rect key="frame" x="695" y="534" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="No Match"/>
+                                <state key="normal" title="No Match">
+                                    <color key="titleColor" red="0.0" green="0.44861254204000239" blue="0.45717157658629437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="uyH-7T-DNj" kind="push" id="MBt-ls-uGz"/>
                                 </connections>
@@ -53,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="878" y="123"/>
+            <point key="canvasLocation" x="877.734375" y="122.65625"/>
         </scene>
         <!--Match View Controller-->
         <scene sceneID="K9q-v2-j8e">
@@ -203,10 +218,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bigicon2.png" width="2111" height="2730"/>
         <image name="fatman.png" width="441" height="547"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="YjO-hc-prz"/>
-        <segue reference="fjv-7c-h9g"/>
+        <segue reference="4kM-z3-Lql"/>
     </inferredMetricsTieBreakers>
 </document>
