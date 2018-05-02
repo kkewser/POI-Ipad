@@ -18,6 +18,7 @@ class MatchViewController: UIViewController {
     @IBOutlet weak var myLabel1: UILabel!
     var receivedPhrase = String()
     
+    @IBOutlet weak var ImageofCaregiver: UIImageView!
     @IBOutlet weak var ImageOfCaregiver: UIImageView!
     
     @IBOutlet weak var FirstnameCaregiver: UILabel!
@@ -49,7 +50,7 @@ class MatchViewController: UIViewController {
                 {
                     do {
                             let data = try Data(contentsOf: urls)
-                            self.ImageOfCaregiver.image = UIImage(data: data)
+                            self.ImageofCaregiver.image = UIImage(data: data)
                         }
                     catch let err
                         {
